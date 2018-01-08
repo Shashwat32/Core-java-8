@@ -1,0 +1,315 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.soft.eternal.corejavapro.ChapterNDifficulty$PlaceholderFragment">
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+
+            >
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:id="@+id/pre"
+                android:src="@drawable/pre3"
+
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/question_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:text="Question no"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/next"
+                    android:src="@drawable/next3"
+                    android:layout_alignParentRight="true"
+
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+
+                />
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Sample question for the OCJP JAVA 1Z0-803 "
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:textAlignment="viewStart" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+
+                />
+
+            <TextView
+                android:id="@+id/res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:text="Correct"
+                android:textColor="@color/colorCorrect"
+                android:textStyle="bold"
+                android:visibility="gone"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:id="@+id/radioGroup"
+                >
+                <RadioButton
+                    android:text="Option one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option1"
+                    android:padding="10dp"
+                    android:allowUndo="true"
+                    />
+                <RadioButton
+                    android:text="option two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option2"
+                    android:padding="10dp"
+                    android:allowUndo="true"
+                    />
+                <RadioButton
+                    android:text="Option three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option3"
+                    android:padding="10dp"
+                    android:allowUndo="true"
+                    />
+                <RadioButton
+                    android:text="Option four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option4"
+                    android:padding="10dp"
+                    android:allowUndo="true"
+                    />
+                <RadioButton
+                    android:text="Option five"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option5"
+                    android:padding="10dp"
+                    android:allowUndo="true"
+                    />
+                <RadioButton
+                    android:text="Option six"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option6"
+                    android:padding="10dp"
+                    android:allowUndo="false"
+                    />
+
+
+            </RadioGroup>
+
+            <CheckBox
+                android:text="CheckBox 1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox1"
+                android:layout_marginBottom="5dp"
+                />
+
+            <CheckBox
+                android:text="CheckBox 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox2"
+                android:layout_marginBottom="5dp"
+                />
+
+            <CheckBox
+                android:text="CheckBox 3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox3"
+                android:layout_marginBottom="5dp"
+                />
+
+            <CheckBox
+                android:text="CheckBox 4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4"
+                android:layout_marginBottom="5dp"
+                />
+
+            <CheckBox
+                android:text="CheckBox 5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox5"
+                android:layout_marginBottom="5dp"
+                />
+
+            <CheckBox
+                android:text="CheckBox 6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox6"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/option4"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginBottom="50dp"
+                >
+                <Button
+
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/reset"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/reset_button"
+                    android:visibility="gone"
+                    />
+                <Button
+
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/submit"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/submit_button"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/explaination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Explanation :"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="jgrje ghegnerg egrherjkgnrgme gejrgberg ergerjkgn ergkjehrgkerg erjg"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"
+
+                android:padding="5dp"
+                android:fontFamily="serif"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                android:visibility="gone"
+                android:background="@drawable/border"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--Below is the transparent layout positioned at startup -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="53dp"
+        android:background="#88666666"
+        android:id="@+id/top_layout"
+        android:visibility="invisible"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            >
+
+        <ImageView
+            android:id="@+id/ivInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:layout_marginRight="15dp"
+            android:clickable="false"
+            android:paddingLeft="20dip"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/instruction"
+            android:paddingBottom="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/got"
+            android:clickable="true"
+            android:layout_width="190dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/ivInstruction"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/got" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item android:icon="@drawable/overview" android:id="@+id/nav_overview" android:title="Overview" />
+        <item android:icon="@drawable/chapter" android:id="@+id/nav_chapter" android:title="Chapter" />
+        <item android:icon="@drawable/difficulty" android:id="@+id/nav_difficulty" android:title="Difficulty" />
+        <item android:icon="@drawable/mock" android:id="@+id/nav_mock" android:title="Mock Test" />
+        <item android:icon="@drawable/quick" android:id="@+id/nav_quick" android:title="Quick Test" />
+        <item android:icon="@drawable/stats" android:id="@+id/stats" android:title="Stats" />
+    </group>
+
+
+    <group android:id="@+id/grp2"
+        android:checkableBehavior="single">
+
+        <item android:icon="@drawable/rating" android:id="@+id/nav_rate" android:title="Rate Us" />
+        <item android:icon="@drawable/exit" android:id="@+id/nav_exit" android:title="Exit" />
+
+    </group>
+
+
+</menu>

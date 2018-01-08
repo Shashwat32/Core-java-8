@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_instructions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soft.eternal.corejavapro.Instructions"
+    android:padding="5dp"
+    >
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        >
+
+
+    <TextView
+        android:id="@+id/instruction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="1. Do Not Use the 'Back' Button on Your Mobile During the Test once you have begun taking the test."
+        android:paddingRight="5dp"             android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        android:lineSpacingExtra="4dp"
+        android:textAlignment="viewStart" />
+        <TextView
+            android:id="@+id/instruction2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="2. Use the left swipe and right swipe to move to previous and next question respectively."
+            android:paddingRight="5dp"             android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:id="@+id/instruction3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="3. Review All of Your Answers Before Submitting the test. Make sure you have not accidentally changed your response to a question"
+            android:paddingRight="5dp"             android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:id="@+id/instruction4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="4. If you have presssed radio button accidentally , press 'Reset' button to clear your selection."
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:id="@+id/instruction5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="5. When you are satisfied with the result make sure you finish by clicking the 'SUBMIT' button at the bottom of the screen in last page of question. "
+            android:paddingRight="5dp"             android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="viewStart" />
+        <TextView
+            android:id="@+id/instruction6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="6. You have 2 hours to complete the test and passing score is 63 %."
+            android:paddingRight="5dp"             android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="viewStart" />
+
+
+        <TextView
+            android:id="@+id/instruction8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="7. There are total 70 multiple choice questions in which there is no negative marking for wrong answers."
+            android:paddingRight="5dp"             android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textAlignment="viewStart" />
+
+        <Button
+
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:id="@+id/submit"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ok_button"
+
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

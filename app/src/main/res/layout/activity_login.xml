@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi There ! \n\nJust put your name and we will get you started"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            />
+       <!-- <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:maxLines="1"
+            android:ems="10"
+            android:imeOptions="actionSend"
+            android:inputType="textPersonName"
+            >
+        </EditText>
+        -->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#44f3deee"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:drawableLeft="@drawable/ic_user_24dp"
+            android:drawablePadding="16dp"
+            android:drawableTint="@android:color/white"
+            android:hint="Name"
+            android:padding="10dp"
+            android:id="@+id/user"
+            android:maxLength="20"
+            android:layout_weight="1"
+            android:imeOptions="actionSend"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:inputType="textPersonName"
+            />
+
+
+      <!--  <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_selector"
+            android:text="Upload Photo"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white" />  -->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#44f3deee"
+            android:text="NEXT"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/next"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
